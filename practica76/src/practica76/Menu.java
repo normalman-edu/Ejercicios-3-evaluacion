@@ -12,12 +12,18 @@ import java.util.Scanner;
  * @author edu
  */
 public class Menu {
+    /**
+     * Declarar variables
+     * Iniciar teclado
+     */
     private char opciones;
     static Scanner read= new Scanner(System.in);
 
 public Menu(){
     opciones='.';}
-
+/**
+ * Opciones del menu
+ */
 public void mostrarmenu(){
 /*Pedir al usuario*/
  System.out.println("Que operacion deseas realizar: ");
@@ -26,12 +32,17 @@ public void mostrarmenu(){
  System.out.println("*=Multiplicacion");
  System.out.println("/=Division");}
 
-//Setter
+/**
+ * leemos la opcion dada por el usuario
+ */
 public void leerOpcion(){
     this.opciones=read.next().charAt(0);
     System.out.println();
 }
-//Getter
+/**
+ * Devolvemos la opcion elegida por el usuario
+ * @return opciones 
+ */
 public char getOpcion(){
 return opciones;}
 }
