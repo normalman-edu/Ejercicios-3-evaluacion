@@ -25,10 +25,10 @@ public class Practica78 {
         
         //Declarar radio
         System.out.println("Base:");
-        op.setBase(teclado.nextInt());
+        op.setBase(teclado.nextFloat());
         
         System.out.println("Altura:");
-        op.setAltura(teclado.nextInt());
+        op.setAltura(teclado.nextFloat());
         
         //Operacion Area
         op.Area(op.getBase(), op.getAltura());

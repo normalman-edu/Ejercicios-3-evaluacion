@@ -25,7 +25,7 @@ public class Practica80 {
         
     //Declarar radio
     System.out.println("Lado:");
-    op.setLado(teclado.nextInt());
+    op.setLado(teclado.nextFloat());
     
     //Operacion Area
     op.Area(op.getLado());

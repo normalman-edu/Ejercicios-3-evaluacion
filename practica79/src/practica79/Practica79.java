@@ -25,10 +25,10 @@ public class Practica79 {
         
     //Declarar radio
     System.out.println("Lado:");
-    op.setLado(teclado.nextInt());
+    op.setLado(teclado.nextFloat());
        
     System.out.println("Apotema:");
-    op.setApotema(teclado.nextInt());
+    op.setApotema(teclado.nextFloat());
         
     //Operacion Area
     op.Area(op.getLado(), op.getApotema());

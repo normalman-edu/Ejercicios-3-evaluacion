@@ -25,7 +25,7 @@ public class Practica81 {
         
     //Declarar radio
     System.out.println("Radio:");
-    op.setRadio(teclado.nextInt());
+    op.setRadio(teclado.nextFloat());
         
     //Operacion Longitud
     op.Area(op.getRadio());
